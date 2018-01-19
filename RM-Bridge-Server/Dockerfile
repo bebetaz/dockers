@@ -1,6 +1,6 @@
-FROM softsam/android-19
+FROM fuyaode/android-19
 
-MAINTAINER fuyaode
+MAINTAINER bebetaz
 
 RUN apt-get update && \
     apt-get install -y openssh-server && \
