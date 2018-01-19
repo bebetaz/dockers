@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-MAINTAINER fuyaode
+MAINTAINER bebetaz
 
 WORKDIR /opt
 
