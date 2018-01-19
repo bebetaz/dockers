@@ -9,6 +9,7 @@ emulator64-${android_arch} -avd ${android_arch} -noaudio -no-window -gpu off -ve
 sleep 120
 adb wait-for-device
 adb install RMBridge_1.2.0.apk
+adb install droid-VNC-server.apk
 sleep 60
 adb shell am start -n de.fun2code.android.rmbridge/de.fun2code.android.rmbridge.RMBridgeActivity
 sleep 10
