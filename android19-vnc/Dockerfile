@@ -29,6 +29,8 @@ RUN echo n | android create avd --force -n "arm" -t android-19 --abi default/arm
 EXPOSE 5555
 # VNC port
 EXPOSE 5900
+# VNC port
+EXPOSE 5901
 
 # Needed to be able to run VNC - bug of Android SDK
 RUN mkdir ${ANDROID_HOME}/tools/keymaps && touch ${ANDROID_HOME}/tools/keymaps/en-us
